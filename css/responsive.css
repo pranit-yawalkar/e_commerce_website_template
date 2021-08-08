@@ -1,0 +1,41 @@
+@media screen and (max-width: 1000px) {
+    .lines{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 130px;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .search input{
+        width: 60vw;
+    }
+    .slider{
+        width: 90vw;
+    }
+    .slider img{
+        width: 90vw;
+    }
+    .card-box{
+        flex-direction: column;
+    }
+    .card-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .card-item img{
+        width: 70vw;
+    }
+    .lines{
+        font-size: 20px;
+    }
+}
