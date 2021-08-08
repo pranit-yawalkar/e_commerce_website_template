@@ -4,17 +4,21 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     header{
-        height: 130px;
+        height: 140px;
     }
     nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .logo{
+        margin: 10px 0 0 0;
+    }
     .search input{
         width: 60vw;
+        height: 5vh;
     }
     .slider{
         width: 90vw;

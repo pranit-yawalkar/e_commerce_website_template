@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -24,13 +23,14 @@ nav{
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    margin: 0 15px;
+    margin: 0 100px 0 0;
+    font-weight: bold;
     cursor: pointer;
 }
 
 .logo img{
     width: 30px;
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
 
 nav ul{
@@ -41,8 +41,9 @@ nav ul{
 }
 
 nav ul li{
-    padding: 0 2vw;
+    padding: 0 1vw;
     list-style: none;
+    font-size: 20px;
 }
 
 nav ul li a{
@@ -57,7 +58,6 @@ nav ul li a:hover{
 .search{
     display: flex;
     align-items: center;
-    /* margin: 0 30vw; */
 }
 
 .slider{
