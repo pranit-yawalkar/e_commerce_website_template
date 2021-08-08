@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 650px) {
     header{
-        height: 140px;
+        height: 150px;
     }
     nav{
         flex-direction: column;
@@ -18,7 +18,7 @@
     }
     .search input{
         width: 60vw;
-        height: 5vh;
+        height: 3vh;
     }
     .slider{
         width: 90vw;
